@@ -1,7 +1,4 @@
 class Hunger {
-	constructor(){
-	}
-	
 	
 	getHungCord() {
 		return [

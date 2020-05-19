@@ -105,7 +105,6 @@ class Game{
 	}
 	
 	async drawHunger (){
-			
 			if(this.HunderCoord.length == 0){
 				return;
 			}
@@ -176,11 +175,6 @@ class Game{
 		let text = helper.addWord(propText, this.container);
 		this.app.stage.addChild(this.container);
 	}
-	
-	
-	
-	
-	
 	
 }
 export default  Game;
